@@ -1,28 +1,26 @@
-/* Optional: set theme variables once */
-:root{
-  --bg: #0f172a;        /* page background */
-  --text: #e2e8f0;      /* body text */
-  --brand: #2563eb;     /* accents/links */
-  --surface: #1e293b;   /* headers/boxes */
-}
-
 body {
-  background: var(--bg);
-  color: var(--text);
+  font-family: Arial, sans-serif;
+  background-color: #f8fafc;
+  color: #0f172a;
+  margin: 0;
+  padding: 0;
 }
 
-header, footer {
-  background: var(--surface);
-  color: var(--text);
+.container {
+  max-width: 700px;   /* controls width of text block */
+  margin: 5rem auto;  /* centers with large side margins */
+  padding: 2rem;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
 }
 
-nav a {
-  color: var(--text);
+h1 {
+  text-align: center;
+  margin-bottom: 1rem;
 }
 
-nav a:hover {
-  text-decoration: underline;
+p {
+  font-size: 1.1rem;
+  line-height: 1.8;
 }
-
-/* Links inside content */
-a { color: var(--brand); }
